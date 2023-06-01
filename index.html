@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYM | Concert</title>
+  <link rel="shortcut icon" type="image/png" href="assets/img/logo-small.png" />
+
+  <!-- //////////********** GENERAL CSS **********////////// -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- //////////********** GENERAL CSS **********////////// -->
+
+  <!-- //////////********** W3 CSS **********////////// -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- //////////********** W3 CSS **********////////// -->
+
+  <!-- //////////********** BOOTSTRAP CSS **********////////// -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- //////////********** BOOTSTRAP CSS **********////////// -->
+
+  <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <!-- //////////********** FONT AWESOME **********////////// -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- //////////********** FONT AWESOME **********////////// -->
+
+  <!-- //////////********** GOOGLE FONTS **********////////// -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- //////////********** GOOGLE FONTS **********////////// -->
+
+  <!-- //////////********** MDB **********////////// -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+  <!-- //////////********** MDB **********////////// -->
+
+  <!-- //////////********** POPPINS **********////////// -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <!-- //////////********** POPPINS **********////////// -->
+
+  <!-- //////////********** FONT AWESOME JS **********////////// -->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- //////////********** FONT AWESOME js **********////////// -->
+</head>
+
+<body>
+  <header>
+    <!-- //////////********** NAVBAR  **********////////// -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-3">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">
+          <a href="#">
+            <img src="assets/img/logo-small.png" alt="Logo" class="logo-img">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="far fa-moon"></i>
+                <!-- <i class="far fa-moon"></i> -->
+              </a>
+
+            </li>
+          </ul>
+          <div class="float-end" id="">
+            <button class="btn btn-primary">Login</button>
+            <button class="btn btn-primary">Register</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- //////////********** NAVBAR  **********////////// -->
+
+    <!-- //////////********** BACKGROUND IMAGE  **********////////// -->
+    <div id="intro-example" class="p-5 text-center bg-image"
+      style="background-image: url('./assets/img/bg-hero1.jpg');">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white hero-text m-3">
+            <h1 class="mb-3">Welcome To NYM | Concert</h1>
+            <h5 class="mb-4">Get the best Digital Experience</h5>
+            <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
+              rel="nofollow" target="_blank">Get e-ticket</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
+              role="button">Download E-ticket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////********** BACKGROUND IMAGE  **********////////// -->
+  </header>
+
+  <!-- //////////********** ABOUT SECTION  **********////////// -->
+  <section id="about">
+    <div class="row">
+      <div class="tittle text-center mt-5">
+        <h2>About <span class="highlight">NYM</span></h2>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestias!</small>
+      </div>
+      <div class="w3-row mt-5">
+        <div class="w3-half pt-5 p-3">
+          <h3 class="text-center">About <span class="highlight">U</span>s</h3>
+          <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis numquam at sequi
+            aperiam porro vel.
+            Animi et enim ullam neque quibusdam fugiat quam consequatur cum nesciunt soluta, maiores molestiae! Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem, aperiam distinctio
+            repellendus enim expedita consectetur odit, libero voluptas aut porro! Sapiente illo quae deserunt esse
+            tenetur? Maiores, ex sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure
+            praesentium minus vitae, earum, delectus nihil eos, dolorem quis in vel veritatis. Ipsam facilis doloremque
+            delectus ipsa harum optio cumque.</p>
+        </div>
+        <div class="w3-half pt-5 p-3">
+          <div class="d-flex align-items-center justify-content-center" style="height: 350px;">
+            <!-- <button type="button" class="btn btn-primary">Example button</button> -->
+            <img src="assets/img/abt-img.jpg" class="abt-img img-thumbnail" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- //////////********** ABOUT SECTION  **********////////// -->
+
+  <!-- //////////********** CONTACT SECTION **********////////// -->
+  <section id="contact">
+    <div class="row">
+      <div class="tittle text-center mt-5 p-3">
+        <h2>24/hr <span class="highlight">Support</span> Team</h2>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestias!</small>
+      </div>
+      <div class="w3-row">
+        <div class="w3-half pt-5 p-3">
+          <div class="d-flex align-items-center justify-content-center" style="height: 350px;">
+            <!-- <button type="button" class="btn btn-primary">Example button</button> -->
+            <img src="assets/img/team-img.jpg" class="abt-img img-thumbnail" alt="">
+          </div>
+        </div>
+
+        <div class="w3-half pt-5 p-3">
+          <h3 class="text-center">Contact <span class="highlight">U</span>s</h3>
+
+          <form class="p-5" id="messageForm">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" name="name" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" name="email" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+
+            <!-- Subject input -->
+            <!-- <div class="form-outline mb-4">
+              <input type="text" id="form4Example4" class="form-control" />
+              <label class="form-label" for="form4Example4">Subject</label>
+            </div> -->
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- //////////********** CONTACT SECTION **********////////// -->
+
+
+  <!-- //////////********** SLIDES SECTION **********////////// -->
+  <section id="slides">
+    <div class="row p-5">
+
+      <!-- Carousel wrapper -->
+      <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner rounded-5 shadow-4-strong">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+              alt="Sunset Over the City" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+              alt="Canyon at Nigh" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+              alt="Cliff Above a Stormy Sea" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle"
+          data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle"
+          data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+
+    </div>
+  </section>
+
+  <!-- //////////********** SLIDES SECTION **********////////// -->
+
+  <!-- //////////********** EVENTS SECTION **********////////// -->
+
+  <section id="event">
+    <div class="row p-5">
+      <div class="tittle text-center mt-5 p-3">
+        <h2><span class="highlight">E</span>vents</h2>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestias!</small>
+      </div>
+
+      <div class="w3-row p-3">
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fab fa-aws"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fas fa-chalkboard-user"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fas fa-clover"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fab fa-cpanel"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="w3-row p-3">
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fab fa-aws"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fas fa-chalkboard-user"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fas fa-clover"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="cards">
+            <h6><span class="icon"><i class="fab fa-cpanel"></i></span> Best Programmer</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur nesciunt quos minima
+              reprehenderit deleniti beatae itaque praesentium asperiores dolores?</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- //////////********** EVENTS SECTION **********////////// -->
+
+
+  <!-- //////////********** TICKET SECTION **********////////// -->
+
+  <section id="ticket">
+    <div class="row">
+      <div class="text-center p-5">
+        <button type="button" class="btn btn-primary">GET YOUR TICKET HERE</button>
+      </div>
+    </div>
+  </section>
+  <!-- //////////********** TICKET SECTION **********////////// -->
+
+  <!-- //////////********** FAQ SECTION **********////////// -->
+  <section id="faq">
+    <div class="row p-5">
+      <div class="tittle text-center mt-5 p-3">
+        <h2>F<span class="highlight">A</span>Q</h2>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestias!</small>
+      </div>
+
+      <div class="pt-5">
+        <div class="faq-body mw-50 p3 text-center mb-3">
+          <p>How do I login into the portal ?<button class="float-end" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#question1" aria-expanded="false" aria-controls="question1">+</button>
+            <!-- Collapsed content -->
+          <div class="collapse mt-3" id="question1">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident.
+          </div>
+          </p>
+        </div>
+
+        <div class="faq-body mw-50 p3 text-center mb-3">
+          <p>How to login into the portal ?<button class="float-end" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#question3" aria-expanded="false" aria-controls="question3">+</button>
+            <!-- Collapsed content -->
+          <div class="collapse mt-3" id="question3">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident.
+          </div>
+          </p>
+        </div>
+
+        <div class="faq-body mw-50 p3 text-center mb-3">
+          <p>How to register ?<button class="float-end" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#question4" aria-expanded="false" aria-controls="question4">+</button>
+            <!-- Collapsed content -->
+          <div class="collapse mt-3" id="question4">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident.
+          </div>
+          </p>
+        </div>
+
+        <div class="faq-body mw-50 p3 text-center mb-3">
+          <p>How many events are there ?<button class="float-end" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#question5" aria-expanded="false" aria-controls="question5">+</button>
+            <!-- Collapsed content -->
+          <div class="collapse mt-3" id="question5">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident.
+          </div>
+          </p>
+        </div>
+
+        <div class="faq-body mw-50 p3 text-center mb-3">
+          <p>More about NYM Technologies ?<button class="float-end" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#question2" aria-expanded="false" aria-controls="question2">+</button>
+            <!-- Collapsed content -->
+          <div class="collapse mt-3" id="question2">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident.
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //////////********** FAQ SECTION **********////////// -->
+
+  <!-- //////////********** FOOTER SECTION **********////////// -->
+
+  <footer id="footer">
+    <div class="row p-5">
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-white mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+
+      <div class="w3-row">
+        <div class="w3-quarter p-3">
+          <h6 class="links"><a href="#"><img src="assets/img/logo-small.png" alt="logo" class="logo-img"> NYM
+              Technologies</a></h6>
+          <p class="p-3">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+        <div class="w3-quarter p-3">
+          <h6 class="links"><a href="#">Languages</a></h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-reset">PHP</a></li>
+            <li><a href="#" class="text-reset">JavaScript</a></li>
+            <li><a href="#" class="text-reset">React</a></li>
+            <li><a href="#" class="text-reset">Vue</a></li>
+            <li><a href="#" class="text-reset">Python</a></li>
+          </ul>
+        </div>
+        <div class="w3-quarter p-3">
+          <h6 class="links"><a href="#">Useful Links</a></h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-reset">Pricing</a></li>
+            <li><a href="#" class="text-reset">Tickets</a></li>
+            <li><a href="#" class="text-reset">Tables</a></li>
+            <li><a href="#" class="text-reset">Help</a></li>
+          </ul>
+        </div>
+        <div class="w3-quarter p-3 text-center">
+          <h6 class="links">Contact Info</h6>
+          <p>Address: Zooroad Kano, Nigeria</p>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <p class="text-center"> © 2023 Copyright : NYM TECHNOLOGIES LIMITED</p>
+      <!-- Copyright -->
+    </div>
+  </footer>
+
+  <!-- //////////********** FOOTER SECTION **********////////// -->
+
+
+
+
+
+  <!-- //////////********** MDN JS **********////////// -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+  <!-- //////////********** MDN JS **********////////// -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+  <!-- //////////********** JQUERY **********////////// -->
+  <script src=" https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <!-- //////////********** JQUERY **********////////// -->
+
+  <!-- //////////********** JS FILE **********////////// -->
+  <script src="assets/js/app.js"></script>
+  <!-- //////////********** JS FILE **********////////// -->
+
+  <!-- //////////********** LORD ICONS **********////////// -->
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+  <!-- //////////********** LORD ICONS **********////////// -->
+
+  <script>
+    $(document).on('submit', '#messageForm', function (e) {
+      e.preventDefault();
+
+      var formData = new FormData(this);
+      formData.append("message_form", true);
+
+      $.ajax({
+        type: "POST",
+        url: "http://localhost/event-api/messages/create.php",
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function (response) {
+          // alert(JSON.stringify(response));
+
+          var data = response;
+          // console.log(data);
+          // console.log(data.status);
+          // console.log(data.message);
+          if (data.status == 201) {
+            alert(data.message);
+            $('#messageForm')[0].reset();
+
+          } else if (data.status == 422) {
+            alert(data.message);
+
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
